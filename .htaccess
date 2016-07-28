@@ -1,0 +1,15 @@
+RewriteEngine On
+
+# this to access webpage with direct url
+RewriteRule ^[^\\.]*$ /index.html [L]
+
+#Header set Access-Control-Allow-Origin "*"
+#Header add Access-Control-Allow-Methods: "GET,POST,OPTIONS,DELETE,PUT"
+
+# to test in combination w/ prestashop
+#RewriteRule ^$ /index.html [L]
+#RewriteRule ^[\\choose]*$ /index.html [L]
+#RewriteRule ^[\\ios]*$ /index.html [L]
+#RewriteRule ^[\\android]*$ /index.html [L]
+#RewriteRule ^[\\messenger]*$ /index.html [L]
+#RewriteRule ^[\\whatsapp]*$ /index.html [L]
